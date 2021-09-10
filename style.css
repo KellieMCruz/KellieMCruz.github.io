@@ -1,14 +1,39 @@
 body {
-    background-color: #eed7c5;
+    background-color: #705946;
   }
-  h1 {
-    color: blue;
-  }
-  h1 {
+
+h1 {
     text-decoration: "none";
-    color:#5e544d;
+    color: #cab69d;
     font-family: "Book Antiqua", Georgia, "times new roman", serif;
   }  
+
   .topnav {
     overflow: hidden;
   }
+
+
+a:link {
+    padding: 50px;
+    color:#cab69d;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cab69d;
+    background-color: transparent;
+    text-decoration: none;
+}
+      
+a:hover {
+    color: #9ac6a2;
+    background-color: transparent;
+    text-decoration: thick;
+}
+      
+a:active {
+    color: #9ac6a2;
+    background-color: transparent;
+    text-decoration: none;
+}
