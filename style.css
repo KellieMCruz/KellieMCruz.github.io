@@ -8,7 +8,26 @@ h1 {
     font-family: "Book Antiqua", Georgia, "times new roman", serif;
   }  
 
-  .topnav {
+h2 {
+    font-size: x-large;
+    text-decoration: "none";
+    color: #cab69d;
+    font-family: "Book Antiqua", Georgia, "times new roman", serif;
+}
+
+h3 {
+    font-family: "Geneva", Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: #9ac6a2;
+}
+
+h4 {
+    font-family: "Geneva", Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: #9ac6a2;
+}
+
+.topnav {
     overflow: hidden;
   }
 
@@ -36,4 +55,21 @@ a:active {
     color: #9ac6a2;
     background-color: transparent;
     text-decoration: none;
+}
+
+p {
+    padding-top: 15px;
+    line-height: 2;
+    max-width: 1250px;
+    color: #9ac6a2;
+    font-family: "Geneva", Tahoma, Verdana, sans-serif;
+}
+
+ul {
+    list-style-position: outside;
+    line-height: 2;
+    font-family: "Book Antiqua", Georgia, "times new roman", serif;
+    color: #9ac6a2;
+    display: inline-block;
+    list-style-type: circle;
 }
